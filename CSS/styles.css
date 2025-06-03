@@ -1,0 +1,173 @@
+@media (min-width: 400px) {
+    #Home {
+        background-image:url(../IMG/IMG1-Mobile.jpg);
+        width: 100%;
+        padding: 2px;
+    }
+    
+    main {
+        color: #FFF;
+        padding: 40px 0 40px 0;
+    }
+
+    #card1,#card2,#card3,#card4 {
+        justify-self: center;
+        display: flex;
+        align-items: center;
+        background-color: #000;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+        margin: 20px;
+    }
+
+    .cuerpo {
+        color: #FFF !important;
+        justify-items: center;
+    }
+
+    .boton {
+        justify-self: center;
+    }
+
+    #ViaLactea {
+        background-image:url(../IMG/IMG2-Mobile.jpg);
+        width: 100%;
+        padding: 2px;
+        background-size: cover;
+    }
+
+    #Descripcion{
+        justify-self: center;
+        display: flex;
+        align-items: center;
+        background-color: #000;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+        margin: 20px;
+        max-width: 80%;
+        color: #fff;
+    }
+
+    .img, .video{
+        width: 100%;
+    }
+
+    .texto{
+        justify-items: center;
+    }
+
+    #SistemaSolar {
+        background-image:url(../IMG/IMG3-Mobile.jpg);
+        width: 100%;
+        padding: 2px;
+        background-size: cover;
+    }
+
+    #AgujeroNegro {
+        background-image:url(../IMG/IMG4-Mobile.jpg);
+        width: 100%;
+        padding: 2px;
+        background-size: cover;
+    }
+
+    #Estrellas {
+        background-image:url(../IMG/IMG5-Mobile.jpg);
+        width: 100%;
+        padding: 2px;
+        background-size: cover;
+    }
+
+}
+
+@media (min-width: 992px) {
+    #Home {
+        background-image:url(../IMG/IMG1-PC.jpg);
+        width: 100%;
+        padding: 2px;
+    }
+    
+    main {
+        color: #FFF;
+        padding: 40px 0 40px 0;
+    }
+
+    #CardMaster{
+        display: flex;
+        justify-content: center;
+    }
+
+    #card1,#card2,#card3,#card4 {
+        justify-self: center;
+        display: flex;
+        align-items: center;
+        background-color: #000;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+        margin: 20px;
+        height: fit-content;
+        height: 450px;
+    }
+
+    #card1 p,#card2 p,#card3 p,#card4 p {
+        height: 60%;
+    }
+
+    .img-home{
+        height: 100%;
+    }
+
+    .cuerpo {
+        color: #FFF !important;
+        justify-items: center;
+    }
+
+    .boton {
+        justify-self: center;
+    }
+
+    #ViaLactea {
+        background-image:url(../IMG/IMG2-PC.jpg);
+        width: 100%;
+        padding: 2px;
+        background-size: cover;
+    }
+
+    #Descripcion{
+        justify-self: center;
+        display: flex;
+        align-items: center;
+        background-color: #000;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+        margin: 20px;
+        max-width: 80%;
+        color: #fff;
+        width: 500px;
+    }
+
+    .img, .video{
+        width: 100%;
+    }
+
+    .texto{
+        justify-items: center;
+    }
+
+    #SistemaSolar {
+        background-image:url(../IMG/IMG3-PC.jpg);
+        width: 100%;
+        padding: 2px;
+        background-size: cover;
+    }
+
+    #AgujeroNegro {
+        background-image:url(../IMG/IMG4-PC.jpg);
+        width: 100%;
+        padding: 2px;
+        background-size: cover;
+    }
+
+    #Estrellas {
+        background-image:url(../IMG/IMG5-PC.jpeg);
+        width: 100%;
+        padding: 2px;
+        background-size: cover;
+    }
+
+}
