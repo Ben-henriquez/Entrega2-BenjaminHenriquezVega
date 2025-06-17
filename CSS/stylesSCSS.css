@@ -43,7 +43,7 @@ main {
   gap: 20px;
 }
 
-@media (min-width: 299.98px) {
+@media (min-width: 299px) {
   #Descripcion {
     max-width: 90%;
   }
@@ -66,7 +66,7 @@ body#Estrellas {
   color: #FFF;
 }
 
-@media (min-width: 299.98px) {
+@media (min-width: 299px) {
   body#Home {
     background-image: url("../IMG/IMG1-Mobile.jpg");
     background-size: cover;

@@ -81,7 +81,7 @@ main {
 }
 
 // ===== Responsive =====
-@media (min-width: 299.98px) {
+@media (min-width: 299px) {
   #Descripcion {
     max-width: 90%;
   }
@@ -107,7 +107,7 @@ body#Estrellas {
   color: $color-text;
 }
 
-@media (min-width: 299.98px) {
+@media (min-width: 299px) {
   body#Home         { @include background-cover("../IMG/IMG1-Mobile.jpg"); }
   body#ViaLactea    { @include background-cover("../IMG/IMG2-Mobile.jpg"); }
   body#SistemaSolar { @include background-cover("../IMG/IMG3-Mobile.jpg"); }
