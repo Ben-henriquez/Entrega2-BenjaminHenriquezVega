@@ -1,0 +1,122 @@
+body {
+  color: #FFF;
+  background-color: #000;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  padding: 40px 0;
+}
+
+.card {
+  background-color: #000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  color: #FFF;
+  margin: 20px auto;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card .card-body {
+  text-align: center;
+}
+
+.img-home, .img, .video {
+  width: 100%;
+  height: auto;
+}
+
+.texto {
+  padding: 1rem;
+  text-align: center;
+}
+
+.boton {
+  margin-top: 1rem;
+}
+
+#CardMaster {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media (min-width: 300px) {
+  #Descripcion {
+    max-width: 90%;
+  }
+}
+@media (min-width: 992px) {
+  .img-home {
+    height: 100%;
+  }
+  #Descripcion {
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+  }
+}
+body#Home, body#ViaLactea,
+body#SistemaSolar, body#AgujeroNegro,
+body#Estrellas {
+  color: #FFF;
+}
+
+@media (min-width: 300px) {
+  body#Home {
+    background-image: url("../IMG/IMG1-Mobile.jpg");
+    background-size: cover;
+    padding: 2px;
+  }
+  body#ViaLactea {
+    background-image: url("../IMG/IMG2-Mobile.jpg");
+    background-size: cover;
+    padding: 2px;
+  }
+  body#SistemaSolar {
+    background-image: url("../IMG/IMG3-Mobile.jpg");
+    background-size: cover;
+    padding: 2px;
+  }
+  body#AgujeroNegro {
+    background-image: url("../IMG/IMG4-Mobile.jpg");
+    background-size: cover;
+    padding: 2px;
+  }
+  body#Estrellas {
+    background-image: url("../IMG/IMG5-Mobile.jpg");
+    background-size: cover;
+    padding: 2px;
+  }
+}
+@media (min-width: 992px) {
+  body#Home {
+    background-image: url("../IMG/IMG1-PC.jpg");
+    background-size: cover;
+    padding: 2px;
+  }
+  body#ViaLactea {
+    background-image: url("../IMG/IMG2-PC.jpg");
+    background-size: cover;
+    padding: 2px;
+  }
+  body#SistemaSolar {
+    background-image: url("../IMG/IMG3-PC.jpg");
+    background-size: cover;
+    padding: 2px;
+  }
+  body#AgujeroNegro {
+    background-image: url("../IMG/IMG4-PC.jpg");
+    background-size: cover;
+    padding: 2px;
+  }
+  body#Estrellas {
+    background-image: url("../IMG/IMG5-PC.jpeg");
+    background-size: cover;
+    padding: 2px;
+  }
+}/*# sourceMappingURL=stylesSCSS.css.map */

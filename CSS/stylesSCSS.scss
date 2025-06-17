@@ -1,0 +1,124 @@
+// ===== Variables =====
+$color-text: #FFF;
+$color-bg: #000;
+$shadow-base: 0 4px 10px rgba(0, 0, 0, 0.25);
+$padding-main: 40px 0;
+$mobile-padding: 2px;
+$gap-base: 20px;
+$card-max-width: 80%;
+
+// ===== Mixins =====
+@mixin background-cover($img) {
+  background-image: url($img);
+  background-size: cover;
+  padding: $mobile-padding;
+}
+
+@mixin responsive-img {
+  width: 100%;
+  height: auto;
+}
+
+@mixin card-style {
+  background-color: $color-bg;
+  box-shadow: $shadow-base;
+  color: $color-text;
+  margin: $gap-base auto;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin text-center {
+  text-align: center;
+}
+
+// ===== Base =====
+body {
+  color: $color-text;
+  background-color: $color-bg;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  padding: $padding-main;
+}
+
+.card {
+  @include card-style;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  .card-body {
+    @include text-center;
+  }
+}
+
+.img-home, .img, .video {
+  @include responsive-img;
+}
+
+.texto {
+  padding: 1rem;
+  @include text-center;
+}
+
+.boton {
+  margin-top: 1rem;
+}
+
+#CardMaster {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: $gap-base;
+}
+
+// ===== Responsive =====
+@media (min-width: 300px) {
+  #Descripcion {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 992px) {
+  .img-home {
+    height: 100%;
+  }
+
+  #Descripcion {
+    max-width: $card-max-width;
+    @include flex-center;
+    width: 500px;
+  }
+}
+
+// ===== ID aplicado al BODY directamente =====
+
+body#Home, body#ViaLactea,
+body#SistemaSolar, body#AgujeroNegro,
+body#Estrellas {
+  color: $color-text;
+}
+
+@media (min-width: 300px) {
+  body#Home         { @include background-cover("../IMG/IMG1-Mobile.jpg"); }
+  body#ViaLactea    { @include background-cover("../IMG/IMG2-Mobile.jpg"); }
+  body#SistemaSolar { @include background-cover("../IMG/IMG3-Mobile.jpg"); }
+  body#AgujeroNegro { @include background-cover("../IMG/IMG4-Mobile.jpg"); }
+  body#Estrellas    { @include background-cover("../IMG/IMG5-Mobile.jpg"); }
+}
+
+@media (min-width: 992px) {
+  body#Home         { @include background-cover("../IMG/IMG1-PC.jpg"); }
+  body#ViaLactea    { @include background-cover("../IMG/IMG2-PC.jpg"); }
+  body#SistemaSolar { @include background-cover("../IMG/IMG3-PC.jpg"); }
+  body#AgujeroNegro { @include background-cover("../IMG/IMG4-PC.jpg"); }
+  body#Estrellas    { @include background-cover("../IMG/IMG5-PC.jpeg"); }
+}
