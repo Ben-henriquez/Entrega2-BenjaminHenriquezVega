@@ -119,4 +119,50 @@ body#Estrellas {
     background-size: cover;
     padding: 2px;
   }
+}
+@media (min-width: 992px) {
+  #VideoGalactico {
+    width: 100% !important;
+    margin-bottom: 3rem !important;
+  }
+  #CardGalactico {
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+    margin: 0 auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  #VeGalactico {
+    margin-top: 10px !important;
+    text-align: center !important;
+  }
+  #BodyGalactico {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
+@media (min-width: 299px) {
+  #VideoGalactico {
+    width: 100% !important;
+    margin-bottom: 3rem !important;
+  }
+  #CardGalactico {
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+    margin: 0 auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  #VeGalactico {
+    margin-top: 10px !important;
+    text-align: center !important;
+  }
+  #BodyGalactico {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
 }/*# sourceMappingURL=stylesSCSS.css.map */

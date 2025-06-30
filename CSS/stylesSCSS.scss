@@ -122,3 +122,55 @@ body#Estrellas {
   body#AgujeroNegro { @include background-cover("../IMG/IMG4-PC.jpg"); }
   body#Estrellas    { @include background-cover("../IMG/IMG5-PC.jpeg"); }
 }
+
+@media (min-width: 992px) {
+  // ===== Cards de secciones con AOS =====
+  #VideoGalactico {
+    width: 100% !important;
+    margin-bottom: 3rem !important;
+  }
+  #CardGalactico {
+    width: fit-content !important;
+    margin: 0 auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  #VeGalactico {
+    margin-top: 10px !important;
+    text-align: center !important;
+  }
+
+  #BodyGalactico {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  
+}
+
+@media (min-width: 299px) {
+  #VideoGalactico {
+    width: 100% !important;
+    margin-bottom: 3rem !important;
+  }
+  #CardGalactico {
+    width: fit-content !important;
+    margin: 0 auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  #VeGalactico {
+    margin-top: 10px !important;
+    text-align: center !important;
+  }
+
+  #BodyGalactico {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
